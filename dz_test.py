@@ -1,7 +1,5 @@
-import selene
-import pytest
-from selene.support.shared import browser
 from selene import have
+from selene.support.shared import browser
 
 
 def test_search(open_browser):
